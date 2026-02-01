@@ -1,2 +1,1 @@
-git pull
-node src/website/server/server.js
+node server/server.js

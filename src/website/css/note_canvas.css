@@ -10,8 +10,13 @@
 #note_canvas.sideways {
     height: 100% !important;
     min-height: unset !important;
+    width: 0 !important; /*Chromium sideways layout fix*/
 }
 
 #note_canvas.light_mode {
-    background: linear-gradient(45deg, var(--top-buttons-color-start), var(--top-buttons-color-end));
+    background: linear-gradient(
+        45deg,
+        var(--top-buttons-color-start),
+        var(--top-buttons-color-end)
+    );
 }

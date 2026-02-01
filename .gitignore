@@ -1,7 +1,11 @@
 /node_modules/
 /disabled_sf2s/
+/dist/
+/local-dev/
+/local-edition-build/
 /src/spessasynth_lib/synthetizer/freeverb_unused/
 /src/website/server/config.json
+/server
 
 *~
 
@@ -49,6 +53,9 @@ Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
+# Eslint cache
+.eslintcache
+
 # Dump file
 *.stackdump
 
@@ -66,4 +73,4 @@ $RECYCLE.BIN/
 *.msp
 
 # Windows shortcuts
-*.lnk
+*.lnk!/src/website/public/

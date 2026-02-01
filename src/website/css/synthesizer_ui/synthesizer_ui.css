@@ -81,7 +81,12 @@
 }
 
 .synthui_controller_light {
-    background: linear-gradient(115deg, rgb(200, 200, 200), rgba(255, 255, 255), rgba(200, 200, 200)) !important;
+    background: linear-gradient(
+        115deg,
+        rgb(200, 200, 200),
+        rgba(255, 255, 255),
+        rgba(200, 200, 200)
+    ) !important;
 }
 
 .synthui_controller_show {
@@ -108,11 +113,16 @@
     min-width: var(--voice-meter-height);
 }
 
+.mute_button pre {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .mute_button_light * {
     color: black;
 }
 
-.mute_button svg {
+.mute_button > * {
     transition: transform 0.2s ease;
 }
 
@@ -125,7 +135,7 @@
     cursor: pointer;
 }
 
-.mute_button:hover svg {
+.mute_button:hover > * {
     transform: scale(1.1) rotate(5deg);
 }
 
