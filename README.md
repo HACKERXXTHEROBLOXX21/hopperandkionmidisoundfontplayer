@@ -151,6 +151,10 @@ Licensed under the Apache-2.0 License.
 SpessaSus (Original)
 HACKERXXTHEROBLOXX21 (Remake the site.)
 
+
+### SUPPORT ME BY JOINING DISCORD SERVER OR FIND ME!
+- [Discord Link](https://discord.gg/yWhq35wnQ6) - Consider support me by boosting the server also, I don't mind.
+- Discord Name: xxtherobloxx21
 #### Legal
 
 This project is in no way endorsed or otherwise affiliated with the MIDI Manufacturers Association,
